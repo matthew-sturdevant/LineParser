@@ -1,4 +1,6 @@
-
+/*
+ * return an ILineParser based on the file extension in the file name
+ */
 
 public class LineParserFactory {
 

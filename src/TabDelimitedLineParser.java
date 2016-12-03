@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /*
- *  
+ *  Parse a tab delimited line and return a List<String> of the results.x 
  */
 
 public class TabDelimitedLineParser implements ILineParser {
@@ -19,7 +19,7 @@ public class TabDelimitedLineParser implements ILineParser {
 	/*
 	 * (non-Javadoc)
 	 * @see ILineParser#getNextLineTokens()
-	 * split the line into tad delimited data and return it as a List<String>;
+	 * split the line into tab delimited data and return it as a List<String>;
 	 */
 	
 	public List<String> getNextLineTokens() throws IOException {

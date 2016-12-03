@@ -9,9 +9,7 @@ import java.util.logging.Logger;
 public class TestTabDelimitedLineParser {
 
 	/*
-	 *   I have set it up to use scanner and then read next line from scanner as long as we have a next line.
-	 *   When hasNextLine() returns false I pass null in for the nextLine to the LineParserFactory which will pass null
-	 *   into the TabDelimitedLineParser constructor.
+	 *   Test out the TabDelimitedLineParser functionality
 	 */
 	public static void main(String[] args) throws IllegalArgumentException{
 		//Put this file in here for simplicity.
@@ -20,7 +18,7 @@ public class TestTabDelimitedLineParser {
 		FileInputStream fis = null;
 		Scanner scanner = null;
 		
-		// make sure we actually have a filename and that it's not an empt
+		// make sure we actually have a filename and that it's not an empty
     	if (fileName == null || fileName.length() == 0) {
     		System.out.println("Invalid file name: + " + fileName + ". Please Confirm that the file exists.");
     		return;
